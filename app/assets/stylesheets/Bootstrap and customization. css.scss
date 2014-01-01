@@ -1,7 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Cardo);
+
 $body-bg: 		#34495e;
 $text-color: 	#ecf0f1;
 $navbar-inverse-bg: #16a085;
 $navbar-inverse-link-color: white;
 $jumbotron-bg: #16a085;
 $jumbotron-heading-color: white;
+$brand-primary: #f1c40f;
+$font-family-sans-serif: cardo;
 @import 'bootstrap';
+
+.center {
+text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
